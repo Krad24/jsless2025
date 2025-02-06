@@ -1,5 +1,6 @@
 "use strict";
 
+let numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?', '');
 
-a = 15;
+console.log(numberOfFilms);
 
