@@ -2,5 +2,12 @@
 
 let numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?', '');
 
-console.log(numberOfFilms);
+const personalMoveDB = {
+  count: numberOfFilms,
+  movies: {},
+  actors: {},
+  genres: [],
+  privat: false
+};
 
+console.log(personalMoveDB);
